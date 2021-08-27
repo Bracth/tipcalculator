@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tipcalculator/static/css/main.96116170.chunk.css",
+    "main.js": "/tipcalculator/static/js/main.9be8aa94.chunk.js",
+    "main.js.map": "/tipcalculator/static/js/main.9be8aa94.chunk.js.map",
+    "runtime-main.js": "/tipcalculator/static/js/runtime-main.0a98ecc5.js",
+    "runtime-main.js.map": "/tipcalculator/static/js/runtime-main.0a98ecc5.js.map",
+    "static/js/2.ce05a3b9.chunk.js": "/tipcalculator/static/js/2.ce05a3b9.chunk.js",
+    "static/js/2.ce05a3b9.chunk.js.map": "/tipcalculator/static/js/2.ce05a3b9.chunk.js.map",
+    "index.html": "/tipcalculator/index.html",
+    "static/css/main.96116170.chunk.css.map": "/tipcalculator/static/css/main.96116170.chunk.css.map",
+    "static/js/2.ce05a3b9.chunk.js.LICENSE.txt": "/tipcalculator/static/js/2.ce05a3b9.chunk.js.LICENSE.txt",
+    "static/media/logo.3cc0528b.svg": "/tipcalculator/static/media/logo.3cc0528b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a98ecc5.js",
+    "static/js/2.ce05a3b9.chunk.js",
+    "static/css/main.96116170.chunk.css",
+    "static/js/main.9be8aa94.chunk.js"
+  ]
+}
