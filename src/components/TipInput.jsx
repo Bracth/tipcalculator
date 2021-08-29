@@ -4,7 +4,7 @@ export default function TipInput(){
 
  const [percentage, setPercentage] = useState(0);
 const [bill, setBill] = useState(0);
-const [numberOfPeople, setNumberOfPeople] = useState(0);
+const [numberOfPeople, setNumberOfPeople] = useState(1);
 
 const billRef=useRef();
 const numberOfPeopleRef=useRef();
@@ -39,7 +39,7 @@ const HandleReset = () => {
     customPercentageRef.current.value = null;
     setPercentage(0);
     setBill(0);
-    setNumberOfPeople(0);
+    setNumberOfPeople(1);
 }
 
 const totalTip = (bill * percentage)/ 100;
@@ -89,12 +89,12 @@ type="number" />
     <label className="btn-lg w-100 px-4 btn btn-secondary m-2" htmlFor="50%">50%</label>
 </div>
 <div className="col-6 col-md-4">
-<input className="form-control-lg fs-4 fw-bold form-control m-2" ref={customPercentageRef}  onChange={HandleCheck} type="number" placeholder="Custom"/>
+<input className="form-control-lg p-2 fs-4 fw-bold form-control m-2" ref={customPercentageRef}  onChange={HandleCheck} type="number" placeholder="Custom"/>
 </div>
 </div>
 
 <h2 className="fs-5">Number of People</h2>
-<input className="form-control" ref={numberOfPeopleRef} type="number" name="numberOfPeople" onChange={HandlePeople}/>
+<input placeholder="1" className="form-control" ref={numberOfPeopleRef} type="number" name="numberOfPeople" onChange={HandlePeople}/>
 </div>
 </div>
 
@@ -108,7 +108,7 @@ type="number" />
 <span className="text-info">/ person</span>
 </div>
 <div className="text-primary fw-bold fs-1">
-${tip}
+ ${tip}
 </div>
 </div>
 
